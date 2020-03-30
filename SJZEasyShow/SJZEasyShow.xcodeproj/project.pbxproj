@@ -16,6 +16,7 @@
 		575CF9EE2431DD9400580405 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 575CF9ED2431DD9400580405 /* main.m */; };
 		575CF9F82431DD9400580405 /* SJZEasyShowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 575CF9F72431DD9400580405 /* SJZEasyShowTests.m */; };
 		575CFA032431DD9400580405 /* SJZEasyShowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 575CFA022431DD9400580405 /* SJZEasyShowUITests.m */; };
+		575CFA172431FFA700580405 /* SJZEasyShowText.m in Sources */ = {isa = PBXBuildFile; fileRef = 575CFA162431FFA700580405 /* SJZEasyShowText.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		575CF9FE2431DD9400580405 /* SJZEasyShowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJZEasyShowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		575CFA022431DD9400580405 /* SJZEasyShowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJZEasyShowUITests.m; sourceTree = "<group>"; };
 		575CFA042431DD9400580405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		575CFA152431FFA700580405 /* SJZEasyShowText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJZEasyShowText.h; sourceTree = "<group>"; };
+		575CFA162431FFA700580405 /* SJZEasyShowText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJZEasyShowText.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,8 +144,18 @@
 		575CFA102431EAB900580405 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				575CFA142431FF6B00580405 /* ShowText */,
 			);
 			path = Class;
+			sourceTree = "<group>";
+		};
+		575CFA142431FF6B00580405 /* ShowText */ = {
+			isa = PBXGroup;
+			children = (
+				575CFA152431FFA700580405 /* SJZEasyShowText.h */,
+				575CFA162431FFA700580405 /* SJZEasyShowText.m */,
+			);
+			path = ShowText;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +290,7 @@
 			files = (
 				575CF9E32431DD9000580405 /* ViewController.m in Sources */,
 				575CF9DD2431DD9000580405 /* AppDelegate.m in Sources */,
+				575CFA172431FFA700580405 /* SJZEasyShowText.m in Sources */,
 				575CF9EE2431DD9400580405 /* main.m in Sources */,
 				575CF9E02431DD9000580405 /* SceneDelegate.m in Sources */,
 			);
