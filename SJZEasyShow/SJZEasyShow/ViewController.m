@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SJZEasyShowText.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [[SJZEasyShowText alloc] initWithFrame:CGRectMake(0, 0, 0, 0)];
 }
 
 @end
