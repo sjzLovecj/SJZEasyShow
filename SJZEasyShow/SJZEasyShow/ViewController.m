@@ -23,9 +23,9 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    NSURL * url = [NSURL URLWithString:@"itms-services://?action=download-manifest&url=https://github.com/sjzLovecj/SJZEasyShow/blob/master/SJZEasyShow/SJZEasyShowUITests/IKStaff.plist"];
+    NSURL * url = [NSURL URLWithString:@"itms-services://?action=download-manifest&url=https://github.com/sjzLovecj/SJZEasyShow/blob/master/SJZEasyShow/SJZEasyShowUITests/manifest.plist"];
     
-    
+    [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:nil];
 }
 
 @end
