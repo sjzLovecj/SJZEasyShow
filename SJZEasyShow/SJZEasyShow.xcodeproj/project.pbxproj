@@ -11,12 +11,12 @@
 		574422B12449503E00BAA595 /* IKStaff.plist in Resources */ = {isa = PBXBuildFile; fileRef = 574422AF2449503E00BAA595 /* IKStaff.plist */; };
 		574422B7244951C600BAA595 /* IOS-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 574422B3244951C600BAA595 /* IOS-1024.png */; };
 		574422B8244951C600BAA595 /* IOS-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 574422B3244951C600BAA595 /* IOS-1024.png */; };
-		574422B9244951C600BAA595 /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 574422B4244951C600BAA595 /* AppIcon29x29@2x.png */; };
-		574422BA244951C600BAA595 /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 574422B4244951C600BAA595 /* AppIcon29x29@2x.png */; };
 		574422BC2449582900BAA595 /* manifest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 574422BB2449582900BAA595 /* manifest.plist */; };
 		574422BD2449582900BAA595 /* manifest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 574422BB2449582900BAA595 /* manifest.plist */; };
 		574422BF2449585500BAA595 /* IKStaff.ipa in Resources */ = {isa = PBXBuildFile; fileRef = 574422BE2449585400BAA595 /* IKStaff.ipa */; };
 		574422C02449585500BAA595 /* IKStaff.ipa in Resources */ = {isa = PBXBuildFile; fileRef = 574422BE2449585400BAA595 /* IKStaff.ipa */; };
+		574422C2244977CB00BAA595 /* AppIcon29x29@.png in Resources */ = {isa = PBXBuildFile; fileRef = 574422C1244977CB00BAA595 /* AppIcon29x29@.png */; };
+		574422C3244977CB00BAA595 /* AppIcon29x29@.png in Resources */ = {isa = PBXBuildFile; fileRef = 574422C1244977CB00BAA595 /* AppIcon29x29@.png */; };
 		575CF9DD2431DD9000580405 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 575CF9DC2431DD9000580405 /* AppDelegate.m */; };
 		575CF9E02431DD9000580405 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 575CF9DF2431DD9000580405 /* SceneDelegate.m */; };
 		575CF9E32431DD9000580405 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 575CF9E22431DD9000580405 /* ViewController.m */; };
@@ -49,9 +49,9 @@
 /* Begin PBXFileReference section */
 		574422AF2449503E00BAA595 /* IKStaff.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IKStaff.plist; sourceTree = "<group>"; };
 		574422B3244951C600BAA595 /* IOS-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IOS-1024.png"; sourceTree = "<group>"; };
-		574422B4244951C600BAA595 /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x.png"; sourceTree = "<group>"; };
 		574422BB2449582900BAA595 /* manifest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = manifest.plist; sourceTree = "<group>"; };
 		574422BE2449585400BAA595 /* IKStaff.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = IKStaff.ipa; sourceTree = "<group>"; };
+		574422C1244977CB00BAA595 /* AppIcon29x29@.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@.png"; sourceTree = "<group>"; };
 		575CF9D82431DD9000580405 /* SJZEasyShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJZEasyShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		575CF9DB2431DD9000580405 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		575CF9DC2431DD9000580405 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -150,9 +150,9 @@
 		575CFA012431DD9400580405 /* SJZEasyShowUITests */ = {
 			isa = PBXGroup;
 			children = (
+				574422C1244977CB00BAA595 /* AppIcon29x29@.png */,
 				574422BE2449585400BAA595 /* IKStaff.ipa */,
 				574422BB2449582900BAA595 /* manifest.plist */,
-				574422B4244951C600BAA595 /* AppIcon29x29@2x.png */,
 				574422B3244951C600BAA595 /* IOS-1024.png */,
 				574422AF2449503E00BAA595 /* IKStaff.plist */,
 				575CFA022431DD9400580405 /* SJZEasyShowUITests.m */,
@@ -285,7 +285,7 @@
 				575CF9E82431DD9400580405 /* Assets.xcassets in Resources */,
 				574422B7244951C600BAA595 /* IOS-1024.png in Resources */,
 				574422BF2449585500BAA595 /* IKStaff.ipa in Resources */,
-				574422B9244951C600BAA595 /* AppIcon29x29@2x.png in Resources */,
+				574422C2244977CB00BAA595 /* AppIcon29x29@.png in Resources */,
 				575CF9E62431DD9000580405 /* Main.storyboard in Resources */,
 				574422B02449503E00BAA595 /* IKStaff.plist in Resources */,
 				574422BC2449582900BAA595 /* manifest.plist in Resources */,
@@ -303,8 +303,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				574422BA244951C600BAA595 /* AppIcon29x29@2x.png in Resources */,
 				574422B12449503E00BAA595 /* IKStaff.plist in Resources */,
+				574422C3244977CB00BAA595 /* AppIcon29x29@.png in Resources */,
 				574422BD2449582900BAA595 /* manifest.plist in Resources */,
 				574422B8244951C600BAA595 /* IOS-1024.png in Resources */,
 				574422C02449585500BAA595 /* IKStaff.ipa in Resources */,
