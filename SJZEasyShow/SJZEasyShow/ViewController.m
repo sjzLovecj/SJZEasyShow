@@ -19,7 +19,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    [[SJZEasyShowText alloc] initWithFrame:CGRectMake(0, 0, 0, 0)];
+    
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    NSURL * url = [NSURL URLWithString:@"itms-services://?action=download-manifest&url=https://github.com/sjzLovecj/SJZEasyShow/blob/master/SJZEasyShow/SJZEasyShowUITests/IKStaff.plist"];
+    
+    
 }
 
 @end
