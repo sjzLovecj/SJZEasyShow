@@ -28,8 +28,6 @@
 				<string>1.1.0</string>
 				<key>kind</key>
 				<string>software</string>
-				<key>platform-identifier</key>
-				<string>com.apple.platform.iphoneos</string>
 				<key>title</key>
 				<string>爱康纵横</string>
 			</dict>
