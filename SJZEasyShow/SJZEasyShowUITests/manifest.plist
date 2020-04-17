@@ -19,6 +19,12 @@
 					<key>url</key>
 					<string>http://gitlab.it.ikang.com/ios/IKStaffIpa/blob/master/AppIcon29x29@2x.png</string>
 				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>New item</key>
+					<string></string>
+				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
