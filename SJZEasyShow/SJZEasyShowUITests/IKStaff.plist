@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://gitlab.it.ikang.com/ios/IKStaffIpa/blob/master/IKStaff.ipa</string>
+					<string>https://github.com/sjzLovecj/SJZEasyShow/blob/master/SJZEasyShow/SJZEasyShowUITests/IKStaff.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>http://gitlab.it.ikang.com/ios/IKStaffIpa/blob/master/AppIcon29x29@2x.png</string>
+					<string>https://github.com/sjzLovecj/SJZEasyShow/blob/master/SJZEasyShow/SJZEasyShowUITests/AppIcon29x29%402x.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>hhttp://gitlab.it.ikang.com/ios/IKStaffIpa/blob/master/IOS-1024.png</string>
+					<string>https://github.com/sjzLovecj/SJZEasyShow/blob/master/SJZEasyShow/SJZEasyShowUITests/IOS-1024.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
