@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		574422B02449503E00BAA595 /* IKStaff.plist in Resources */ = {isa = PBXBuildFile; fileRef = 574422AF2449503E00BAA595 /* IKStaff.plist */; };
+		574422B12449503E00BAA595 /* IKStaff.plist in Resources */ = {isa = PBXBuildFile; fileRef = 574422AF2449503E00BAA595 /* IKStaff.plist */; };
 		575CF9DD2431DD9000580405 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 575CF9DC2431DD9000580405 /* AppDelegate.m */; };
 		575CF9E02431DD9000580405 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 575CF9DF2431DD9000580405 /* SceneDelegate.m */; };
 		575CF9E32431DD9000580405 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 575CF9E22431DD9000580405 /* ViewController.m */; };
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		574422AF2449503E00BAA595 /* IKStaff.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IKStaff.plist; sourceTree = "<group>"; };
 		575CF9D82431DD9000580405 /* SJZEasyShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJZEasyShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		575CF9DB2431DD9000580405 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		575CF9DC2431DD9000580405 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -135,6 +138,7 @@
 		575CFA012431DD9400580405 /* SJZEasyShowUITests */ = {
 			isa = PBXGroup;
 			children = (
+				574422AF2449503E00BAA595 /* IKStaff.plist */,
 				575CFA022431DD9400580405 /* SJZEasyShowUITests.m */,
 				575CFA042431DD9400580405 /* Info.plist */,
 			);
@@ -264,6 +268,7 @@
 				575CF9EB2431DD9400580405 /* LaunchScreen.storyboard in Resources */,
 				575CF9E82431DD9400580405 /* Assets.xcassets in Resources */,
 				575CF9E62431DD9000580405 /* Main.storyboard in Resources */,
+				574422B02449503E00BAA595 /* IKStaff.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				574422B12449503E00BAA595 /* IKStaff.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
